@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99A227508AB007D7A84 /* BaseViewController.swift */; };
+		27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99C22750944007D7A84 /* MenuViewController.swift */; };
 		27E2BBC922745BDC00B9C2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */; };
 		27E2BBCE22745BDC00B9C2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBCC22745BDC00B9C2D2 /* Main.storyboard */; };
 		27E2BBD022745BDD00B9C2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBCF22745BDD00B9C2D2 /* Assets.xcassets */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27C7B99A227508AB007D7A84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		27C7B99C22750944007D7A84 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		27E2BBC522745BDC00B9C2D2 /* WaterClosetV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterClosetV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E2BBCD22745BDC00B9C2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				27E2BBDA22745C0400B9C2D2 /* MapViewController.swift */,
+				27C7B99C22750944007D7A84 /* MenuViewController.swift */,
+				27C7B99A227508AB007D7A84 /* BaseViewController.swift */,
 				27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */,
 				27E2BBCC22745BDC00B9C2D2 /* Main.storyboard */,
 				27E2BBCF22745BDD00B9C2D2 /* Assets.xcassets */,
@@ -137,6 +143,8 @@
 			files = (
 				27E2BBC922745BDC00B9C2D2 /* AppDelegate.swift in Sources */,
 				27E2BBDB22745C0400B9C2D2 /* MapViewController.swift in Sources */,
+				27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */,
+				27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,7 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 
-class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
+class MapViewController: BaseViewController, CLLocationManagerDelegate, MKMapViewDelegate {
 
     // Outlet that allows us to manipulate our mapkit
     @IBOutlet weak var mapView: MKMapView!
@@ -20,6 +20,8 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        addSlideMenuButton()
         
         // Ask for Authorisation from the User.
         self.locationManager.requestAlwaysAuthorization()
