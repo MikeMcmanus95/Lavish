@@ -62,7 +62,7 @@ class MapViewController: BaseViewController, CLLocationManagerDelegate, MKMapVie
         let region = MKCoordinateRegion(center: coordinations, span: span)
         
         // Sets a 'region' based on the region variable above and animates to that location
-        mapView.setRegion(region, animated: true)
+        mapView.setRegion(region, animated: false)
         
         
         // Prints user coordinates to the console
@@ -70,11 +70,13 @@ class MapViewController: BaseViewController, CLLocationManagerDelegate, MKMapVie
     }
     
     @IBAction func onLongPress(_ sender: Any) {
-        let touchPoint = gestureRecognizer.location(in: mapView)
-        let newCoordinates = mapView.convert(touchPoint, toCoordinateFrom: mapView)
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = newCoordinates
-        mapView.addAnnotation(annotation)
+//        let touchPoint = gestureRecognizer.location(in: mapView)
+//        let newCoordinates = mapView.convert(touchPoint, toCoordinateFrom: mapView)
+//        let annotation = MKPointAnnotation()
+//        annotation.coordinate = newCoordinates
+//        mapView.addAnnotation(annotation)
+        print("Nah b.")
+        
     }
     
 

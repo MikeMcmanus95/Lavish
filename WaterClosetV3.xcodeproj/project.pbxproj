@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99A227508AB007D7A84 /* BaseViewController.swift */; };
 		27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99C22750944007D7A84 /* MenuViewController.swift */; };
+		27C7B99F22754019007D7A84 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99E22754019007D7A84 /* DetailViewController.swift */; };
+		27C7B9A122754302007D7A84 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B9A022754302007D7A84 /* MenuTableViewCell.swift */; };
+		27C7B9A322754BCB007D7A84 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B9A222754BCB007D7A84 /* AddViewController.swift */; };
+		27C7B9A52275549B007D7A84 /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B9A42275549B007D7A84 /* LocationSearchTable.swift */; };
 		27E2BBC922745BDC00B9C2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */; };
 		27E2BBCE22745BDC00B9C2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBCC22745BDC00B9C2D2 /* Main.storyboard */; };
 		27E2BBD022745BDD00B9C2D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBCF22745BDD00B9C2D2 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* Begin PBXFileReference section */
 		27C7B99A227508AB007D7A84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		27C7B99C22750944007D7A84 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		27C7B99E22754019007D7A84 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		27C7B9A022754302007D7A84 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		27C7B9A222754BCB007D7A84 /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		27C7B9A42275549B007D7A84 /* LocationSearchTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
 		27E2BBC522745BDC00B9C2D2 /* WaterClosetV3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterClosetV3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		27E2BBCD22745BDC00B9C2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,9 +68,13 @@
 			children = (
 				27E2BBDA22745C0400B9C2D2 /* MapViewController.swift */,
 				27C7B99C22750944007D7A84 /* MenuViewController.swift */,
+				27C7B99E22754019007D7A84 /* DetailViewController.swift */,
+				27C7B9A222754BCB007D7A84 /* AddViewController.swift */,
 				27C7B99A227508AB007D7A84 /* BaseViewController.swift */,
 				27E2BBC822745BDC00B9C2D2 /* AppDelegate.swift */,
 				27E2BBCC22745BDC00B9C2D2 /* Main.storyboard */,
+				27C7B9A42275549B007D7A84 /* LocationSearchTable.swift */,
+				27C7B9A022754302007D7A84 /* MenuTableViewCell.swift */,
 				27E2BBCF22745BDD00B9C2D2 /* Assets.xcassets */,
 				27E2BBD122745BDD00B9C2D2 /* LaunchScreen.storyboard */,
 				27E2BBD422745BDD00B9C2D2 /* Info.plist */,
@@ -143,6 +155,10 @@
 			files = (
 				27E2BBC922745BDC00B9C2D2 /* AppDelegate.swift in Sources */,
 				27E2BBDB22745C0400B9C2D2 /* MapViewController.swift in Sources */,
+				27C7B9A322754BCB007D7A84 /* AddViewController.swift in Sources */,
+				27C7B9A52275549B007D7A84 /* LocationSearchTable.swift in Sources */,
+				27C7B9A122754302007D7A84 /* MenuTableViewCell.swift in Sources */,
+				27C7B99F22754019007D7A84 /* DetailViewController.swift in Sources */,
 				27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */,
 				27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */,
 			);

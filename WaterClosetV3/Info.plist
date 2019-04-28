@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Lavish</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -21,9 +23,9 @@
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>&quot;Water Closet needs access to your location data in order to find the bathrooms nearest to you.&quot;</string>
+	<string>"Water Closet needs access to your location data in order to find the bathrooms nearest to you."</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>&quot;Water Closet needs to access your location data from your device in order to find the nearest bathrooms to you.&quot;</string>
+	<string>"Water Closet needs to access your location data from your device in order to find the nearest bathrooms to you."</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
