@@ -1,5 +1,5 @@
 # Lavish
-> Lavish is a bathroom locator application built with Apple's MapKit and CoreLocation. Contest entry for Hackfest 2019.
+> Lavish is a bathroom locator application built with Apple's MapKit, CoreLocation and Google's Firebase. Contest entry for Hackfest 2019.
 
 ### User Stories
 - [x] User can sign in and sign out authenticated with Firebase.
