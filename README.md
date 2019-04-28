@@ -8,7 +8,7 @@
 - [x] User can add a new location based on their search.
 
 
-#### Post M.V.P
+#### Future Stories
 - [ ] User can long press the map to pin a location.
 - [ ] The bathroom database will include a star based rating system.
 - [ ] User can view nearby restrooms in a Table View.
