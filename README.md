@@ -16,17 +16,8 @@
 
 ### App Walkthough GIFs
 
-<img src="https://media.giphy.com/media/QB4jzzLx84qWlJ83qJ/giphy.gif" width=250>
-<img src="https://media.giphy.com/media/J5ArKf73L76oTciS1Z/giphy.gif" width=250><br>
-<img src="https://media.giphy.com/media/XbhQwdQXqy5eILGLAT/giphy.gif" width=250>
-<img src="https://media.giphy.com/media/QAP3y0fh8I5LvWbqOh/giphy.gif" width=250>
-
-
-http://www.giphy.com/gifs/QB4jzzLx84qWlJ83qJ - Side Menu
-http://www.giphy.com/gifs/J5ArKf73L76oTciS1Z - Search
-http://www.giphy.com/gifs/XbhQwdQXqy5eILGLAT - Transition
-http://www.giphy.com/gifs/QAP3y0fh8I5LvWbqOh - Adding a new location
-
+<img src="https://media.giphy.com/media/QB4jzzLx84qWlJ83qJ/giphy.gif" width=250><img src="https://media.giphy.com/media/J5ArKf73L76oTciS1Z/giphy.gif" width=250><br>
+<img src="https://media.giphy.com/media/XbhQwdQXqy5eILGLAT/giphy.gif" width=250><img src="https://media.giphy.com/media/QAP3y0fh8I5LvWbqOh/giphy.gif" width=250>
 
 
 
