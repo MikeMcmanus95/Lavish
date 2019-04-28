@@ -13,6 +13,9 @@
 - [ ] The bathroom database will include a star based rating system.
 - [ ] User can view nearby restrooms in a Table View.
 
+#### Distant Future
+- [ ] Port to Android?
+
 
 ### App Walkthough GIFs
 
