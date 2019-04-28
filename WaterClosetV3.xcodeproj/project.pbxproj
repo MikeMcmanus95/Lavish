@@ -12,6 +12,7 @@
 		2786393B2275A63A008509F2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2786393A2275A63A008509F2 /* SignUpViewController.swift */; };
 		2786393E2275ABA7008509F2 /* ToolbarPiker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2786393D2275ABA7008509F2 /* ToolbarPiker.swift */; };
 		278639402275AD1F008509F2 /* SignUp2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2786393F2275AD1F008509F2 /* SignUp2ViewController.swift */; };
+		278639422275D919008509F2 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278639412275D919008509F2 /* GradientView.swift */; };
 		27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99A227508AB007D7A84 /* BaseViewController.swift */; };
 		27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99C22750944007D7A84 /* MenuViewController.swift */; };
 		27C7B99F22754019007D7A84 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C7B99E22754019007D7A84 /* DetailViewController.swift */; };
@@ -33,6 +34,7 @@
 		2786393A2275A63A008509F2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		2786393D2275ABA7008509F2 /* ToolbarPiker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolbarPiker.swift; sourceTree = "<group>"; };
 		2786393F2275AD1F008509F2 /* SignUp2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2ViewController.swift; sourceTree = "<group>"; };
+		278639412275D919008509F2 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		27C7B99A227508AB007D7A84 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		27C7B99C22750944007D7A84 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		27C7B99E22754019007D7A84 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 		2786393C2275AB65008509F2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				278639412275D919008509F2 /* GradientView.swift */,
 				2786393D2275ABA7008509F2 /* ToolbarPiker.swift */,
 			);
 			path = Classes;
@@ -238,14 +241,18 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WaterClosetV3/Pods-WaterClosetV3-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +277,7 @@
 				27C7B9A122754302007D7A84 /* MenuTableViewCell.swift in Sources */,
 				2786393E2275ABA7008509F2 /* ToolbarPiker.swift in Sources */,
 				27C7B99F22754019007D7A84 /* DetailViewController.swift in Sources */,
+				278639422275D919008509F2 /* GradientView.swift in Sources */,
 				27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */,
 				27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */,
 			);

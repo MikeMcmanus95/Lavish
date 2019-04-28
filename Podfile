@@ -7,5 +7,7 @@ target 'WaterClosetV3' do
 
   # Pods for WaterClosetV3
   pod 'Firebase/Core'
+  pod 'Firebase/Database'
+  pod 'Firebase/Auth'
 
 end
