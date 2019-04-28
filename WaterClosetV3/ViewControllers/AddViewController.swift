@@ -107,11 +107,13 @@ class AddViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     
     
     @IBAction func onLongPress(_ sender: Any) {
+        
         let touchPoint = gestureRecognizer.location(in: mapView)
         let newCoordinates = mapView.convert(touchPoint, toCoordinateFrom: mapView)
         let annotation = MKPointAnnotation()
         annotation.coordinate = newCoordinates
         mapView.addAnnotation(annotation)
+        
     }
     
     @IBAction func onLocBtnPressed(_ sender: UIButton) {
@@ -163,10 +165,15 @@ extension AddViewController {
         }
         
         let reuseId = "pin"
-        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId) as? MKPinAnnotationView
-        pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
-        pinView?.pinTintColor = UIColor.blue
-        pinView?.canShowCallout = true
+        var pinView = mapView.dequeueReusableAnnotationView(withIdentifier: reuseId)
+        if pinView == nil {
+            pinView = MKPinAnnotationView(annotation: annotation, reuseIdentifier: reuseId)
+            pinView?.canShowCallout = true
+        } else {
+            pinView?.annotation = annotation
+        }
+        
+       
         let smallSquare = CGSize(width: 30, height: 30)
         let button = UIButton(frame: CGRect(origin: CGPoint.zero, size: smallSquare))
         button.setBackgroundImage(UIImage(named: "Plus30x30"), for: [])
