@@ -16,9 +16,18 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var firstnameTextField: UITextField!
     @IBOutlet weak var lastnameTextField: UITextField!
     private var datePicker: UIDatePicker?
+    @IBOutlet weak var textLabel1: UILabel!
+    @IBOutlet weak var textLabel2: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        textLabel1.alpha = 0
+        textLabel2.alpha = 0
+        UIView.animate(withDuration: 0.5, animations: {
+            self.textLabel1.alpha = 1
+            self.textLabel2.alpha = 1
+        })
         
         // Configures the Date Picker to have a 'done' button
         datePicker = UIDatePicker()

@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+
 protocol SlideMenuDelegate {
     func slideMenuItemSelectedAtIndex(_ index : Int32)
     
@@ -15,12 +17,14 @@ protocol SlideMenuDelegate {
 
 class MenuViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    @IBOutlet weak var emailLabel: UILabel!
     @IBOutlet weak var btnCloseMenuOverlay: UIButton!
     var btnMenu : UIButton!
     var delegate : SlideMenuDelegate?
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadUserData()
 
         // Do any additional setup after loading the view.
     }
@@ -73,6 +77,40 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
         let DVC = mainStoryboard.instantiateViewController(withIdentifier: "DetailViewController") as! DetailViewController
         self.navigationController?.pushViewController(DVC, animated: true)
     }
+    
+    // MARK: - API
+    func loadUserData() {
+        guard let userID = Auth.auth().currentUser?.uid else { return }
+        Database.database().reference().child("user").child(userID).child("username").observeSingleEvent(of: .value) { (snapshot) in
+            guard let username = snapshot.value as? String else { return }
+            self.emailLabel.text = "Welcome, \(username)"
+            
+        }
+    }
+    
+    // MARK: - Selectors
+    @objc func handleSignOut() {
+        let signOutAlertController = UIAlertController(title: nil, message: "Are you sure you want to sign out?", preferredStyle: .actionSheet)
+        signOutAlertController.addAction(UIAlertAction(title: "Sign Out", style: .destructive, handler: { (_) in
+            self.signOut()
+        }))
+        signOutAlertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: nil))
+        present(signOutAlertController, animated: true, completion: nil)
+    }
+    
+    func signOut() {
+        do {
+            try Auth.auth().signOut()
+            self.dismiss(animated: true, completion: nil)
+        } catch let error {
+            print("Failed to sign out with error: ", error)
+        }
+    }
+    
+    @IBAction func onSignOutBtnPress(_ sender: Any) {
+        handleSignOut()
+    }
+    
     
     /*
     // MARK: - Navigation
