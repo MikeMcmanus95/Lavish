@@ -6,5 +6,6 @@ target 'WaterClosetV3' do
   use_frameworks!
 
   # Pods for WaterClosetV3
+  pod 'Firebase/Core'
 
 end
