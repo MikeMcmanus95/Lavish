@@ -66,11 +66,16 @@ PODS:
     - nanopb/encode (= 0.3.901)
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
+  - ReactiveKit (2.1.1)
+  - ReactiveUIKit (2.0.1):
+    - ReactiveKit (~> 2.0)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Core
   - Firebase/Database
+  - ReactiveKit (~> 2.0)
+  - ReactiveUIKit (~> 2.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -86,6 +91,8 @@ SPEC REPOS:
     - GTMSessionFetcher
     - leveldb-library
     - nanopb
+    - ReactiveKit
+    - ReactiveUIKit
 
 SPEC CHECKSUMS:
   Firebase: 749a8ff4962f9d8c79dda1966de20f6f77583d67
@@ -100,7 +107,9 @@ SPEC CHECKSUMS:
   GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  ReactiveKit: 93374d66000dc629896472541d22157d6083bf30
+  ReactiveUIKit: af6e401a61d196502267ff216b7ac6f4c37c0dc5
 
-PODFILE CHECKSUM: 3c3d15e0f950241790737fa0449035d9c10d37ba
+PODFILE CHECKSUM: 9e945b990d0b11c02e2a3984c84ec9cbd989224b
 
 COCOAPODS: 1.6.0

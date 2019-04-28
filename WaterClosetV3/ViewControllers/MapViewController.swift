@@ -69,7 +69,7 @@ class MapViewController: BaseViewController, CLLocationManagerDelegate, MKMapVie
         print("locations = \(coordinations.latitude) \(coordinations.longitude)")
     }
     
-//    @IBAction func onLongPress(_ sender: Any) {
+   @IBAction func onLongPress(_ sender: Any) {
 ////        let touchPoint = gestureRecognizer.location(in: mapView)
 ////        let newCoordinates = mapView.convert(touchPoint, toCoordinateFrom: mapView)
 ////        let annotation = MKPointAnnotation()
@@ -77,7 +77,7 @@ class MapViewController: BaseViewController, CLLocationManagerDelegate, MKMapVie
 ////        mapView.addAnnotation(annotation)
 //        print("Nah b.")
 //
-//    }
+    }
     
 
     /*

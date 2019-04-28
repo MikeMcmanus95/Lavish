@@ -9,5 +9,6 @@ target 'WaterClosetV3' do
   pod 'Firebase/Core'
   pod 'Firebase/Database'
   pod 'Firebase/Auth'
-
+  pod 'ReactiveKit', '~> 2.0'
+  pod 'ReactiveUIKit', '~> 2.0'
 end

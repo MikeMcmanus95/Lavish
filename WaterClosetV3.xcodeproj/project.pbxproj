@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271507192276037400B8F953 /* Add2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271507182276037400B8F953 /* Add2ViewController.swift */; };
 		2786393622759B3B008509F2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2786393522759B3A008509F2 /* GoogleService-Info.plist */; };
 		278639382275A31A008509F2 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278639372275A31A008509F2 /* WelcomeViewController.swift */; };
 		2786393B2275A63A008509F2 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2786393A2275A63A008509F2 /* SignUpViewController.swift */; };
@@ -24,11 +25,14 @@
 		27E2BBCE22745BDC00B9C2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBCC22745BDC00B9C2D2 /* Main.storyboard */; };
 		27E2BBD322745BDD00B9C2D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27E2BBD122745BDD00B9C2D2 /* LaunchScreen.storyboard */; };
 		27E2BBDB22745C0400B9C2D2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27E2BBDA22745C0400B9C2D2 /* MapViewController.swift */; };
+		27F459C52275FAA700EE34A8 /* ShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F459C42275FAA700EE34A8 /* ShadowButton.swift */; };
+		27F459C72275FC5A00EE34A8 /* UnderlinedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F459C62275FC5A00EE34A8 /* UnderlinedTextField.swift */; };
 		2C5E90CC8B0A0BBC3F7B7A66 /* Pods_WaterClosetV3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A6E6B1FA008AC9D76A274A /* Pods_WaterClosetV3.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A8018A2843A016CD0E3CB3 /* Pods-WaterClosetV3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterClosetV3.debug.xcconfig"; path = "Target Support Files/Pods-WaterClosetV3/Pods-WaterClosetV3.debug.xcconfig"; sourceTree = "<group>"; };
+		271507182276037400B8F953 /* Add2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Add2ViewController.swift; sourceTree = "<group>"; };
 		2786393522759B3A008509F2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		278639372275A31A008509F2 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		2786393A2275A63A008509F2 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
@@ -48,6 +52,8 @@
 		27E2BBD222745BDD00B9C2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		27E2BBD422745BDD00B9C2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27E2BBDA22745C0400B9C2D2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		27F459C42275FAA700EE34A8 /* ShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadowButton.swift; sourceTree = "<group>"; };
+		27F459C62275FC5A00EE34A8 /* UnderlinedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UnderlinedTextField.swift; path = WaterClosetV3/Classes/UnderlinedTextField.swift; sourceTree = SOURCE_ROOT; };
 		92344C1A30D2BD33953EFC71 /* Pods-WaterClosetV3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterClosetV3.release.xcconfig"; path = "Target Support Files/Pods-WaterClosetV3/Pods-WaterClosetV3.release.xcconfig"; sourceTree = "<group>"; };
 		96A6E6B1FA008AC9D76A274A /* Pods_WaterClosetV3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterClosetV3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -68,10 +74,12 @@
 			isa = PBXGroup;
 			children = (
 				278639372275A31A008509F2 /* WelcomeViewController.swift */,
+				27F459C62275FC5A00EE34A8 /* UnderlinedTextField.swift */,
 				2786393A2275A63A008509F2 /* SignUpViewController.swift */,
 				2786393F2275AD1F008509F2 /* SignUp2ViewController.swift */,
 				27C7B99A227508AB007D7A84 /* BaseViewController.swift */,
 				27C7B9A222754BCB007D7A84 /* AddViewController.swift */,
+				271507182276037400B8F953 /* Add2ViewController.swift */,
 				27C7B99E22754019007D7A84 /* DetailViewController.swift */,
 				27C7B99C22750944007D7A84 /* MenuViewController.swift */,
 				27E2BBDA22745C0400B9C2D2 /* MapViewController.swift */,
@@ -84,6 +92,7 @@
 			children = (
 				278639412275D919008509F2 /* GradientView.swift */,
 				2786393D2275ABA7008509F2 /* ToolbarPiker.swift */,
+				27F459C42275FAA700EE34A8 /* ShadowButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -272,12 +281,15 @@
 				27E2BBC922745BDC00B9C2D2 /* AppDelegate.swift in Sources */,
 				27E2BBDB22745C0400B9C2D2 /* MapViewController.swift in Sources */,
 				27C7B9A322754BCB007D7A84 /* AddViewController.swift in Sources */,
+				27F459C52275FAA700EE34A8 /* ShadowButton.swift in Sources */,
 				2786393B2275A63A008509F2 /* SignUpViewController.swift in Sources */,
 				27C7B9A52275549B007D7A84 /* LocationSearchTable.swift in Sources */,
 				27C7B9A122754302007D7A84 /* MenuTableViewCell.swift in Sources */,
 				2786393E2275ABA7008509F2 /* ToolbarPiker.swift in Sources */,
+				27F459C72275FC5A00EE34A8 /* UnderlinedTextField.swift in Sources */,
 				27C7B99F22754019007D7A84 /* DetailViewController.swift in Sources */,
 				278639422275D919008509F2 /* GradientView.swift in Sources */,
+				271507192276037400B8F953 /* Add2ViewController.swift in Sources */,
 				27C7B99B227508AB007D7A84 /* BaseViewController.swift in Sources */,
 				27C7B99D22750944007D7A84 /* MenuViewController.swift in Sources */,
 			);
